@@ -1,0 +1,7 @@
+{
+  "plugin": {
+    "name": "Private Plugin",
+    "description": "A private plugin for Obsidian"
+  },
+  "version": "1.0.0"
+}

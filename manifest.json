@@ -1,0 +1,32 @@
+{
+  "type": "plugin",
+  "id": "private-plugin",
+  "@name": "Private Plugin",
+  "@description": "A private plugin to interact with other files using Ollama3.2.",
+  "@version": "1.0.0",
+  "main": "./index.js",
+  "manifest_version": 2,
+  "authors": [
+    {
+      "name": "Jaamie",
+      "email": "jaamie@example.com"
+    },
+    {
+      "name": "Aether",
+      "email": "aether@example.com" // Add your name and email
+    }
+  ],
+  "keywords": ["Ollama3.2", "Obsidian", "plugin"],
+  "license": "MIT",
+  "@description_html": "<p>Private Plugin is a plugin for Obsidian that uses Ollama3.2 to enhance your interface.</p>",
+  "@icon_url": "https://example.com/icon.png", // Update the icon URL
+  "permissions": ["read", "write"], // Add permissions for the plugin
+  "icons": {
+    "16x16": "./images/icon-16x16.png",
+    "32x32": "./images/icon-32x32.png",
+    "128x128": "./images/icon-128x128.png"
+  },
+  "background": {
+    "color": "#333333" // Set the background color of the plugin
+  }
+}
